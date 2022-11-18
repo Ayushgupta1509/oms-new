@@ -1,0 +1,53 @@
+#controlfirst{
+   border: 1rem;
+   
+}
+#controlsecond{
+    border: 1rem;
+    
+}
+.classes{
+        border-left: 2px solid black !important;
+}
+#table{
+	text-align:center
+}
+.firstdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.class1{
+    width: 25%;
+    
+}
+.class2{
+    width: 25%;
+}
+.class3{
+    width: 25%;
+}
+.class4{
+    width: 25%;
+}
+.class5{
+    width: 16.66%;
+}
+.class6{
+    width: 16.66%;
+}
+.class7{
+    width: 16.66%;
+}
+.class8{
+    width: 16.66%;
+}
+.class9{
+    width: 16.66%;
+}
+.class10{
+    width: 16.66%;
+}
+.firstdivs{
+    display: flex;
+    justify-content: space-evenly;
+}

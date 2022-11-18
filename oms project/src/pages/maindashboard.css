@@ -1,0 +1,36 @@
+#mainbodys{
+    padding: 4rem;
+    text-align: center;
+    color: black;
+    text-decoration:none;
+}
+#central{
+ margin-top: 15%;
+}
+#images{
+    background-image: url('https://images.pexels.com/photos/11678432/pexels-photo-11678432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    /* background-position: 'center'; */
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  
+}
+#firstcards{
+    margin-left: 3rem; 
+    margin-right: 3rem; 
+   
+}
+#secondcards{
+    margin-left: 3rem;
+    margin-right: 3rem;  
+}
+#thirdcards{
+    margin-left: 3rem;
+    margin-right: 3rem; 
+}
+@media (max-width: 800px) {
+    .line{
+     font-size: 10px; 
+    } 
+  }

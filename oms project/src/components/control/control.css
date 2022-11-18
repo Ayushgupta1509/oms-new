@@ -1,0 +1,291 @@
+.valve {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+
+  
+}
+.div2{
+  position: relative;
+}
+.valves img {
+  position: absolute;
+  left: 360px;
+  top: 10px;
+  z-index: 1;
+}
+
+@media (max-width: 1100px) {
+  .valves img{
+    position: absolute;
+    left: 360px;
+  }
+}
+@media (max-width: 800px) {
+  .valves img{
+    position: absolute;
+    left: 20px;
+  }
+  
+}
+
+
+.location-down1 {
+  font-size: 2rem;
+  color: red;
+  margin-right: 21px;
+}
+
+.location-down2 {
+  font-size: 2rem;
+  color: green;
+  margin-right: 38px;
+}
+
+/* .valvedown{
+  -ms-transform: rotate(180deg); 
+  transform: rotate(180deg);
+  padding-left: 28rem;
+  margin-top: -3rem;
+} */
+
+/* 
+#valveups{
+  position: absolute;
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+  padding-left: 28rem;
+  margin-top: -3rem;
+
+} */
+.div1 {
+  margin-top: 20px;
+  margin-left: 38rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.div3{
+  -ms-transform: rotate(180deg); 
+  transform: rotate(180deg);
+  position: absolute;
+  margin-top: 13.5rem;
+  margin-left: 565px;
+  z-index: 3;
+}
+.shows{
+  /* float: right; */
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ z-index: 4;
+ position: absolute;
+
+}
+.mar{
+  margin-top: 26%;
+}
+/* table, th, td {
+  border: 1px solid black !important;
+} */
+
+#lol{
+  margin-top:  26%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cardsright{
+  margin-left: 3rem;
+}
+#cardsleft{
+  margin-right: 3rem;
+}
+.location-icons {
+  font-size: 2rem;
+  color:green
+}
+.location-icon {
+  font-size: 2rem;
+  color: red
+}
+/* .locations{
+  text-align: center;
+} */
+#flex{
+  display: flex;
+}
+td{
+  text-align: center;
+}
+.location{
+  color: green;
+  text-align: center;
+}
+
+#firstcard{
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+#lastcard{
+  margin-left: 1rem;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+#card-title{
+  justify-content: space-between;
+  display: flex;
+}
+
+.mainbody{
+  display: flex;
+ flex-wrap: wrap;
+  width: 100%;
+}
+
+.mainbody > * {
+  flex: 1 1 50%;
+}
+@media (max-width: 750px) {
+  .mainbody > *{
+      flex: 1 1 100%;
+    }   
+  #firstcard{
+      margin-bottom: 1rem; 
+      margin-right: 1rem;   
+  }
+}
+
+#car1{
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+#car2{
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+#car3{
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+#car4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+#span1{
+  background-color: #E2696B;
+  border-radius: 30%;
+  color: white;
+  padding: 4px;
+}
+#span2{
+  background-color: #E8C000;
+  border-radius: 30%;
+  color: white;
+  padding: 4px;
+}
+#span3{
+  background-color: #2888C4;
+  border-radius: 30%;
+  color: white;
+  padding: 4px;
+}
+#span4{
+  background-color: #DF5633;
+  border-radius: 30%;
+  color: white;
+  padding: 4px;
+}
+.para{
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+#cards{
+  
+ 
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+#card-title{
+  justify-content: space-between;
+  display: flex;
+}
+.pass{
+  display: flex;
+ flex-wrap: wrap;
+  background-color: #212529 ;
+  padding: 4rem;
+  width: 100%;
+ 
+}
+.passs{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  width: 100%;
+}
+.passs > *{
+  flex: 1 1 40%;
+}
+.pass > *{
+  flex: 1 1 20%;
+}
+@media (max-width: 750px) {
+  .pass > *{
+      flex: 1 1 100%;
+      /* margin-right: 2rem; */
+    }
+    #car4{
+      margin-right: 0rem;    
+  }
+  #car1{
+      margin-bottom: 1rem;    
+  }
+  #car2{
+      margin-bottom: 1rem;
+  }
+  #car3{
+      margin-bottom: 1rem;    
+  }
+} 
+
+table, th, td {
+  padding-left: 1rem;
+}
+#centers{
+  justify-content: center;
+  margin: auto;
+}
+.firstflex{
+   display: flex;
+   justify-content: space-around;
+}
+.classw{
+  width: 22%;
+  margin-top: 16px;
+  border: 1px solid red;
+  border-radius: 7px;
+  text-align: center;
+}
+.classs{
+  width: 22%;
+  margin-top: 22px;
+
+  border-radius: 7px;
+  text-align: center;
+}
